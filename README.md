@@ -69,4 +69,4 @@ A simple web application to search for books using the Open Library API, with ra
 - **Unsplash**: Background image (https://unsplash.com).
 
 ## Demo Video
-- [https://youtu.be/xZL4K9SQ4YE]
+- [https://youtu.be/ErTBbjsDBL0]

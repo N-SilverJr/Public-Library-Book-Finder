@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Library Book Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="loadSuggestions()">
+    <div class="container">
+        <h1>Public Library Book Finder</h1>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search by title, author, or subject">
+            <button onclick="searchBooks()">Search</button>
+        </div>
+        <div class="controls">
+            <button onclick="sortBooks('title')">Sort by Title</button>
+            <button onclick="sortBooks('year')">Sort by Year</button>
+            <select id="authorFilter" onchange="filterBooks()">
+                <option value="">Filter by Author</option>
+            </select>
+        </div>
+        <div class="suggestions">
+            <h2>Suggested Books</h2>
+            <div id="suggestionsList" class="results"></div>
+        </div>
+        <div id="results" class="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

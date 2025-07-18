@@ -19,7 +19,7 @@ A simple web application to search for books using the Open Library API, with ra
 
 ## Deployment Instructions
 ### Prerequisites
-- Two web servers (Web01, Web02) with Apache installed.
+- Two web servers (Web01, Web02) with nginx installed.
 - One load balancer (Lb01) with HAProxy.
 - SSH access to all servers.
 
